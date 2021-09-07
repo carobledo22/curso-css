@@ -1,0 +1,16 @@
+/*el margin es la distancia que hay entre dos cajas;
+la logica del margin es igual al del padding (top, right, bottom, left*/
+
+h2 {
+    background-color: blue;
+    display: inline-block;
+    padding: 20px; /*tendra margenes de 20 px en todas direcciones*/
+    margin: 10px; /*misma logica del padding con los margenes*/
+    border-radius: 15px; /*redondea los bordes*/
+    border: 3px solid red; /*aplica bordes con diferentes estilos y colores*/
+    box-shadow: 20px 20px 10px  0 rosybrown; /*sombrea las cajas*/
+    text-shadow: 3px 3px 7px yellow; 
+    /*sombrea el texto; para intensificar el sombreado, se separa con coma
+    y se repiten los argunmentos del text shadow*/
+    
+}

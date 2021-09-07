@@ -1,0 +1,44 @@
+/*LOS SELECTORES MAS PARTICULARES TIENEN PRIORIDAD POR SOBRE LOS MAS GENERALES*/
+
+    /* "*" selector universal, selecciona todos los elementos*/
+*{
+    color:red;
+} 
+/*los selectores de tipo son los que seleccionamos por elemento*/
+h1 {
+    color:aqua;
+}
+/*los selectores de clase seleccionan a los elementos que pertenecen a la misma clase*/
+.tu-vieja {
+    color: yellow;
+}
+/*los selecteroes ID seleccionan la etiqueta que coincida con el ID*/
+#en-tanga {
+    color: violet;
+}
+/*el selector por atributo manipula a las etiquetas que lo posean*/
+[tuvieja="entanga"] {
+    color:black
+}
+/*el selector descendente manipula el contenido de las etiquetas
+que  aparecen estrictamente en ese orden*/
+.clase p i {
+    color: chartreuse;
+}
+/*las pseudoclases sirven por ejemplo para cambiar el color
+del contenido cuando posicionamos el cursor sobre el*/
+h2:hover{
+    color:darkgoldenrod
+}
+
+    /*NIVEL DE JERARQUIA
+MAYOR JERARQUIA
+*¡!IMPORTANT
+-estilos en linea
+/identificadores
++clases
++pseudo-clases
++atributos
+_elementos
+_pseudo-elementos
+MENOR JERARQUIA */

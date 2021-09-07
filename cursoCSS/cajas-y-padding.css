@@ -1,0 +1,33 @@
+* {
+    font-family: 'Lobster', cursive;
+    font-size: 30mx;
+    font-weight: 100;
+}
+
+h2 {
+    background-color: aqua;/*permite cambiar el color de fondo*/
+    display: inline-block; 
+    /*fuerza que sea un elemento en linea,
+    dado que x defecto h2 es un elemnto en bloque*/
+    padding-bottom: 20px;/*distancia del fondo de la caja al texto*/
+    padding-top: 20px;/*distancia de la cima de la caja al texto*/
+    padding-left: 30px;/*distnacia del extremo izquierdo de la caja al texto*/
+    padding-right: 30px;/*distancia del extremo derecho de la caja al texto*/
+}
+h3 {
+    background-color: blue;
+    display: inline-block;
+    padding: 20px; /*tendra margenes de 20 px en todas direcciones*/
+}
+h4 {
+    background-color:red;
+    display: inline-block;
+    padding: 20px 30px; /*tendra margenes de 20 px top-bottom y 20 px left-right*/
+}
+    
+
+/*los elementos en bloque ocupan todo el ancho de la caja contenedora
+los elementos en linea se adaptan y ocupan el tamaño de su contenido*/
+/*el padding es la distancia que hay entre el texto y la caja*/
+/*a diferencia de los elemtos en bloque,
+a los elementos en linea no se les puede dar height y witht*/

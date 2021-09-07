@@ -1,0 +1,18 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}/*establece los margenes y la cabecera*/
+
+.contact-form {
+    font-size: 25px;
+}
+.contact-form__h2 {
+    font-size: 2em; /*generalmente, 1em = 16px*/
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    /*tipo de letra, si no encuenta el primero, va por el siguiente*/
+    font-weight: 500; /*cambia el grosor de la letra*/
+    color: red;
+    line-height: 2; /*el tamaño de la letra es 1hieght; al aumentar o achicar la letra,
+    se mantiene el centro de la altura original como referencia y la letra
+    crece por encima y por debajo de la letra o decrece de la misma manera*/
+}
